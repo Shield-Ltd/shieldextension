@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shield Extension</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Shield Ext</h1>
+      <div class="status-indicator" id="status-indicator"></div>
+    </header>
+    <main>
+      <div class="card glass">
+        <h2>System Status</h2>
+        <p id="status-text">Active</p>
+        <button id="toggle-btn" class="primary-btn">Deactivate</button>
+      </div>
+      <div class="card glass">
+        <h2>Quick Actions</h2>
+        <div class="action-grid">
+            <button class="icon-btn" title="Settings">⚙️</button>
+            <button class="icon-btn" title="Logs">📜</button>
+            <button class="icon-btn" title="Refresh">🔄</button>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>Version 1.0.0</p>
+    </footer>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
