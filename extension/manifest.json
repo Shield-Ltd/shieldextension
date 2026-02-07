@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Shield Extension Boilerplate",
+    "name": "Shield AdBlocker",
     "version": "1.0.0",
-    "description": "A modern, Manifest V3 compliant Chrome Extension boilerplate.",
+    "description": "A simple ad blocker extension that removes ads from websites.",
     "permissions": [
         "activeTab",
         "scripting",
